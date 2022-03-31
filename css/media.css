@@ -1,0 +1,159 @@
+/* home */
+@media screen and (max-width:768px) {
+    .carousel-caption h5{
+        font-size: 2rem !important;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width:768px) {
+    .icon-home{
+        visibility: hidden;
+    }
+
+
+}
+@media screen and (max-width:1200px) {
+    .img-fluid {
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+/* navbar */
+
+
+@media screen and (max-width:990px) {
+    .navbar-collapse{
+        background-color: white !important;
+        margin-top: 5% !important;
+        width: 100% !important;
+    }
+    .nav-link{
+        color: black !important;
+    }
+    .social-nav{
+        display: none !important;
+    }
+}
+/* @media screen and (max-width:786px) {
+    .navbar-toggler{
+        visibility:visible !important;
+    }
+}
+@media screen and (min-width:786px) {
+    .navbar-toggler{
+        visibility:hidden !important;
+    }
+}
+@media screen and (min-width:786px) {
+    .navbar-expand-lg .navbar-nav{
+        display: flex !important;
+    }
+} */
+/* =========== */
+/* title */
+@media screen and (min-width:992px) and (max-width:1100px) {
+    .para-title{
+        padding: 1rem 13rem;
+    }
+}
+@media screen and (max-width:992px) and (min-width:768px) {
+    .para-title{
+        padding: 1rem 4rem;
+    }
+}
+@media screen and (max-width:768px)  {
+    .para-title{
+        padding: 1rem 1rem;
+    }
+}
+/* ========= */
+/* team */
+@media screen and (max-width:768px) {
+    .contact-us-team{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .qustion-team{
+        font-size: 1.5rem !important;
+    }
+}
+/* ===================================================== */
+/* services */
+@media screen and (max-width:992px) and (min-width:575px) {
+    .row-rab .col-sm-4{
+        width: 50%;
+    }
+    .row-rab{
+        flex-wrap: wrap;
+    }
+}
+/* ======================================================= */
+/* footer */
+
+@media screen and (max-width:992px) and (min-width:600px) {
+    .wrap-foottop .col-md-3{
+        width: 50%;
+    }
+    .wrap-foottop{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .title-footdwn{
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+    .row-foot-bton{
+        justify-content: center;
+        align-content: center;
+    }
+    .social-media-foot{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .social-media-foot i{
+        margin: 0;
+        padding: 0 1rem;
+    }
+}
+/* ============================================================================ */
+/* team */
+@media screen and (max-width:991px) {
+    .image-team img{
+        width: 100% !important;
+    }
+    .lay-out-team{
+        justify-content: center;
+    }
+    .lay-out-team i{
+        padding: 1rem;
+    }
+}
+/* ============================================================================ */
+/* client */
+@media screen and (max-width:992px) {
+    .client-image{
+        justify-content: center;
+        width: 80%;
+        margin-left:5rem ;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .client-image{
+        
+        margin-left:2.5rem ;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .client-p{
+        width: 100%;
+        margin: 0;
+    }
+}
